@@ -8,7 +8,7 @@ body {
   /*line-height: 150%;*/
 }
 h1 {
-  color: #eee;
+  color: #ffffff;
   font-family: "Georgia", Times, Times New Roman, serif;
   margin: 0;
   padding-top: 10px;
@@ -43,7 +43,7 @@ hr {
   width: 250px;
   height: 46px;
   padding: 20px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 25%;
   float: left;
 }
 .headerLinks {
@@ -66,6 +66,14 @@ hr {
 }
 .info {
   padding: 16px 1px;
+}
+.portfolio_name {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  position: relative;
+  top: -70px;
+  padding: 10px 10px;
+  text-align: center;
 }
 #main-bio,
 #contact-info,
@@ -106,7 +114,7 @@ a:hover {
 }
 .footer {
   clear: both;
-  color: #424141;
+  color: #ffffff;
   font-weight: 100;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
@@ -115,10 +123,27 @@ a:hover {
   width: 100%;
   margin: 0;
   padding: 20px 10px 10px 10px;
-  border-top: 5px solid #4aaaa5;
-  position: absolute;
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   height: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 190px 190px;
+
+  /* display: grid;
+  grid-gap: 4px 4px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;*/
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  font-size: 18px;
+  text-align: center;
 }
