@@ -1,21 +1,15 @@
-# Basic-Portfolio
-
-Homework assignment 1
+Basic-Portfolio
 
 Design a 3 page Basic-Portfolio layout.
 
 Overview
-In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
+build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
 
 Before You Begin
 
 Welcome to your first opportunity as a front-end web designer. You will be advocating for your most important client—yourself! By making a portfolio, you'll take your first step toward building your web development brand.
 
 This will be one of your harder assignments, if only because you're just getting your feet wet in web design. Trust us, though; it will get easier. Invest your time in this assignment, and it will pay dividends!
-
-Submission on BCS
-
-Please submit the link to the Github Repository!
 
 Instructions
 
@@ -115,6 +109,3 @@ For help with Git and GitHub, be sure to consult the GitHub Supplemental Guide.
 
 Don't forget to look into these concepts: float, padding, margin, display, overflow, clear and text-align.
 
-Reminder: Submission on BCS
-
-Please submit the link to the Github Repository!
