@@ -81,7 +81,7 @@ hr {
 }
 .icon-btn {
   transform: scale(1);
-  transition: 0.2s;
+  transition: 0.3s;
   box-shadow: 6px 6px 10px #b3b1b1;
   border-radius: 50px;
   margin-left: 5px;
