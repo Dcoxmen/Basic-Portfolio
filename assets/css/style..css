@@ -1,3 +1,4 @@
+/*BEGIN SELECTOR CSS*/
 body {
   background-image: url("../images/light-grey-terrazzo.png");
   color: #777777;
@@ -5,7 +6,6 @@ body {
   padding: 0;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
-  /*line-height: 150%;*/
 }
 h1 {
   color: #ffffff;
@@ -23,10 +23,6 @@ h2 {
 p {
   text-align: justify;
 }
-.headerWrapper {
-  margin: 0 auto;
-  width: 100%;
-}
 hr {
   display: block;
   margin-top: 0.5em;
@@ -35,6 +31,12 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
+}
+/*END SELECTOR CSS*/
+/*BEGIN CLASS CSS*/
+.headerWrapper {
+  margin: 0 auto;
+  width: 100%;
 }
 .headerName {
   border-radius: 20px;
@@ -90,6 +92,38 @@ hr {
   transform: scale(1.2);
   transition: 0.4s;
 }
+.footer {
+  clear: both;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: #666666;
+  width: 100%;
+  margin: 0;
+  padding: 20px 10px 10px 10px;
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 190px 190px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  font-size: 18px;
+  text-align: center;
+}
+/*END CLASS CSS*/
+/*BEGIN IDs CSS*/
 #main-bio,
 #contact-info,
 #bio-image {
@@ -122,38 +156,9 @@ hr {
 a {
   color: #4aaaa5;
 }
+/*END IDs CSS*/
 a:link,
 a:visited,
 a:hover {
   color: rgb(95, 95, 95);
-}
-.footer {
-  clear: both;
-  color: #ffffff;
-  font-weight: 100;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 12px;
-  text-align: center;
-  background-color: #666666;
-  width: 100%;
-  margin: 0;
-  padding: 20px 10px 10px 10px;
-  border-top: 8px solid #4aaaa5;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 20px;
-}
-.grid-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 190px 190px 190px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-  font-size: 18px;
-  text-align: center;
 }
